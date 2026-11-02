@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Recipe Book Backend
 
 Empty Express.js + TypeScript backend starter based on the AppsDev API Setup Tutorial.
@@ -66,3 +67,6 @@ recipe-book-backend/
 This is intentionally an empty feature scaffold. The Express server and health-check endpoints are included so you can verify Express is installed and running. Recipe features, authentication, and database tables have not been implemented yet.
 
 Never commit your real `.env` file. Create or change database tables through Drizzle schema and migrations, not manually in the database UI.
+=======
+# backend-ba-react
+>>>>>>> 3ebc7f5c59b75786b2340da6b3d92dd9016162f5
