@@ -1,0 +1,51 @@
+{
+  "name": "backend-ba-react",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsdown src/server.ts --format esm --clean --minify",
+    "dev": "tsx watch src/server.ts",
+    "start": "node dist/server.mjs",
+    "db:studio": "drizzle-kit studio",
+    "db:plan": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "bcrypt": "latest",
+    "cookie-parser": "latest",
+    "cors": "latest",
+    "csrf-csrf": "latest",
+    "dotenv": "latest",
+    "drizzle-orm": "latest",
+    "express": "latest",
+    "helmet": "latest",
+    "hpp": "latest",
+    "jsonwebtoken": "latest",
+    "nodemailer": "latest",
+    "pg": "latest",
+    "zod": "latest"
+  },
+  "devDependencies": {
+    "@eslint/js": "latest",
+    "@types/bcrypt": "latest",
+    "@types/cookie-parser": "latest",
+    "@types/cors": "latest",
+    "@types/express": "latest",
+    "@types/hpp": "latest",
+    "@types/jsonwebtoken": "latest",
+    "@types/node": "latest",
+    "@types/nodemailer": "latest",
+    "@types/pg": "latest",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "drizzle-kit": "latest",
+    "eslint": "latest",
+    "jiti": "latest",
+    "tsdown": "latest",
+    "tsx": "latest",
+    "typescript": "latest",
+    "typescript-eslint": "latest"
+  }
+}
