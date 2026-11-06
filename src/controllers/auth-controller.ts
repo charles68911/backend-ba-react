@@ -14,7 +14,7 @@ const COOKIE_NAME = "cs_auth_token";
 const cookieOptions = {
   httpOnly: true,
   secure: ENV.NODE_ENV === "production",
-  sameSite: "lax" as const,
+  sameSite: "none" as const,
   path: "/",
 };
 
